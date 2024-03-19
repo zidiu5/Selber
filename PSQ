@@ -1,0 +1,144 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("love_ahxello", "BloodTheme")
+
+-- Main
+local Main = Window:NewTab("Gamepass")
+local MainSection = Main:NewSection("Buy Gamepasses")
+
+MainSection:NewButton("Lucky", "Buys Lucky Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 683292030,
+            [2] = "Lucky"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Auto Hatch", "Buys Auto Hatch Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239769964,
+            [2] = "Auto Hatch"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Hoverboard", "Buys Hoverboard Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239771490,
+            [2] = "Hoverboard"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Teleport", "Buys Teleport Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 254430258,
+            [2] = "Teleport"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Skip Egg Open", "Buys Skip Egg Open Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239770648,
+            [2] = "Skip Egg Open"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Pet Storage", "Buys Pet Storage Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239770349,
+            [2] = "Pet Storage"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Super Pet Storage", "Buys Super Pet Storage Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239770174,
+            [2] = "Super Pet Storage"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Magnet", "Buys Magnet Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 272929139,
+            [2] = "Magnet"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("VIP", "Buys VIP Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239771752,
+            [2] = "VIP"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Mythical Hunter", "Buys Mythical Hunter Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 272928960,
+            [2] = "Mythical Hunter"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Triple Egg Open", "Buys Triple Egg Open Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 239771284,
+            [2] = "Triple Egg Open"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("Magic Eggs", "Buys Magic Eggs Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 272929077,
+            [2] = "Magic Eggs"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+MainSection:NewButton("8 Pets Equipped", "Buys 8 Pets Equipped Gamepass", function()
+    local args = {
+        [1] = {
+            [1] = 264133235,
+            [2] = "8 Pets Equipped"
+        }
+    }
+    workspace:WaitForChild("ROBLOX RULES YES"):WaitForChild("__REMOTES"):WaitForChild("buy gamepass"):InvokeServer(unpack(args))
+end)
+
+-- AutoFarm
+local Farm = Window:NewTab("AutoFarm")
+local FarmSection = Farm:NewSection("AutoFarm")
+
+-- Egg
+local Egg = Window:NewTab("Eggs")
+local EggSection = Egg:NewSection("AutoHatch Eggs")
